@@ -395,3 +395,16 @@ body {
     margin-bottom: 20px;
 }
 
+.image-container {
+    margin-top: 150px; /* Adjust this value as needed */
+}
+
+
+body {
+    padding-top: 500px; /* Adjust as needed */
+}
+
+.fixed-top {
+    position: fixed;
+}
+

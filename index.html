@@ -9,81 +9,34 @@
     <link href="styles.css" type="text/css" media="all" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
-    <body style="background-image: url('img/studioloss_2.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <body style="background-image: url('img/MEWO/Scan\ 6.jpeg'); background-size: cover; background-position: center; background-attachment: fixed;">
         <div class="overlay"></div>
         <div class="title-container">
-        <img src="./img/title.png" alt="Title" class="image-title" width="700px">
-    </div>
+            <a href="index.html">
+                <img src="./img/title.png" alt="Title" class="image-title" width="700px">
+            </a>
+        </div>
+        
     
     <div class="content">
-        <div class="nav-buttons">
-            <ul id="navi" class="nav">                         
-                <a class="open-button" data-toggle="modal" data-target="#constructions"><img src="./img/contructions.png" class="img-fluid" width="200px" height="50px"></a>
-                <a class="open-button" data-toggle="modal" data-target="#lovenotes"><img src="./img/lovenotes.png" class="img-fluid" width="200px" height="50px"></a>
+        <div class="nav-buttons fixed-top">
+            <ul id="navi" class="nav">                          
+                <a href="constructions.html" class="open-button">
+                <img src="./img/contructions.png" class="img-fluid" width="200px" height="50px">
+                </a>                       
+                <a href="lovenotes.html"  class="open-button">
+                <img src="./img/lovenotes.png" class="img-fluid" width="200px" height="50px">
+                </a> 
             </ul>
         </div>
-    <div class="">
-        <img src="img/Scan 15.jpeg" class="photo-archive" width="800px" >
-        <img src="img/Scan 4 copy.jpeg" class="photo-archive" width="800px" >
+    <div class="image-scroll-container">
+        <img src="img/House/h1.jpg" class="photo-archive" width="800px" >
+        <img src="img/House/h2.jpg" class="photo-archive" width="800px" >
         <img src="img/Scan 14.jpeg" class="photo-archive" width="800px" >
         <img src="img/Scan 12.jpeg" class="photo-archive" width="800px" >
         <img src="img/Scan 11.jpeg" class="photo-archive" width="800px" >
     </div>
         
-
- 
-<!-- New Screen Modal 1-->
-<div class="modal fade" id="contructions" tabindex="-1" role="dialog" aria-labelledby="constructionsLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="constructionsLabel">New Screen</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="image-scroll-container">
-                    <img src="path/to/image1.jpg" class="scroll-image">
-                    <img src="path/to/image2.jpg" class="scroll-image">
-                    <img src="path/to/image3.jpg" class="scroll-image">
-                    <!-- Add more images as needed -->
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal"><img src="./img/close white.png" class="img-fluid" width="80px" height="20px"></button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<!-- New Screen Modal 2-->
-
-<div class="modal fade" id="lovenotes" tabindex="-1" role="dialog" aria-labelledby="lovenotesLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="lovenotesLabel">New Screen</h4>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="image-scroll-container">
-                    <img src="path/to/image1.jpg" class="scroll-image">
-                    <img src="path/to/image2.jpg" class="scroll-image">
-                    <img src="path/to/image3.jpg" class="scroll-image">
-                    <!-- Add more images as needed -->
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal"><img src="./img/close white.png" class="img-fluid" width="80px" height="20px"></button>
-            </div>
-        </div>
-    </div>
-</div>
-
 <footer>
     <div class="bottom-text">
         © alice morey
@@ -102,3 +55,6 @@
         });
     });
 </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">   
+<head>
+    <meta charset="UTF-8">
+    <title>sui generis</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="icon" type="image/png" href="./i">
+    <link href="styles.css" type="text/css" media="all" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+    <body style="background-image: url('img/MEWO/Scan\ 6.jpeg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="overlay"></div>
+        <div class="title-container">
+            <a href="index.html">
+                <img src="./img/title.png" alt="Title" class="image-title" width="700px">
+            </a>
+        </div>
+        
+    
+    <div class="content">
+        <div class="nav-buttons fixed-top">
+            <ul id="navi" class="nav">                         
+                <a href="constructions.html" class="open-button">
+                    <img src="./img/contructions.png" class="img-fluid" width="200px" height="50px">
+                </a>                        
+                <a href="lovenotes.html" class="open-button">
+                    <img src="./img/lovenotes.png" class="img-fluid" width="200px" height="50px">
+                </a>   
+            </ul>
+        </div>
+        <div class="image-scroll-container">
+            <img src="img/Lovenotes/Scan 12.jpeg" class="photo-archive" width="800px" >
+            <img src="img/Lovenotes/Scan 15.jpeg" class="photo-archive" width="800px" >
+            <img src="img/Lovenotes/Scan 4 copy.jpeg" class="photo-archive" width="800px" >
+            <img src="img/Lovenotes/Scan 11.jpeg" class="photo-archive" width="800px" >
+            <img src="img/Lovenotes/Scan 14.jpeg" class="photo-archive" width="800px" >
+        </div>
+        <footer>
+            <div class="bottom-text">
+                © alice morey
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('.open-button').click(function() {
+                    console.log('Button clicked');
+                    var target = $(this).data('target');
+                    $(target).modal('show');
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>
