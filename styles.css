@@ -384,3 +384,14 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     z-index: -1;
 }
+
+.image-scroll-container {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.scroll-image {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
