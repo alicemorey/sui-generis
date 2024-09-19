@@ -270,6 +270,10 @@ font-size: 24px; /* Default font size for larger screens */
     left: 10%; /* Center the container on mobile */
     right: 10%;
 }
+
+.image-title {
+    width: 250px;
+}
 }
 
 .title-image {
