@@ -276,6 +276,10 @@ font-size: 24px; /* Default font size for larger screens */
 }
 }
 
+.image-title:hover {
+    filter: brightness(4.2); /* Increase brightness by 20% on hover */
+}
+
 .title-image {
 width: 200px;
 height: auto;
@@ -426,11 +430,11 @@ body {
 }
 
 .nav-buttons a.open-button:active img {
-    filter: brightness(1.5) saturate(1.5);
+    filter: brightness(4.5) saturate(1.5);
 }
 
 .nav-buttons a.open-button:hover img {
-    filter: brightness(1.2);
+    filter: brightness(4.2);
 }
 
 
