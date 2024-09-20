@@ -438,3 +438,32 @@ body {
 }
 
 
+.image-title {
+    transition: filter 0.3s ease;
+}
+
+@media (hover: hover) {
+    .image-title:hover {
+        filter: brightness(4.2);
+    }
+}
+
+.image-title:active,
+.image-title:focus {
+    filter: brightness(4.2);
+}
+
+.nav .open-button img {
+    transition: filter 0.3s ease;
+}
+
+@media (hover: hover) {
+    .nav .open-button:hover img {
+        filter: brightness(4.2);
+    }
+}
+
+.nav .open-button:active img,
+.nav .open-button:focus img {
+    filter: brightness(4.2);
+}
