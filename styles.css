@@ -11,101 +11,6 @@ background-position: ce;nter;
 background-attachment: fixed;
 }
 
-.content-wrapper {
-min-height: 100vh;
-overflow-y: auto;
-} 
-
-
-#bgtext {
-    color: black;
-    width: 33%;
-    background: rgba(0, 0, 0, 0.0);
-    font-family: Arial Narrow, sans-serif;
-    font-weight: 100;
-    padding: 28px;
-    margin: 28px;
-    margin-left: 300px;
-    font-size: 12px;
-    text-align: justify;
-}
-
-#bgtext2 {
-    color: black;
-    background: rgba(0, 0, 0, 0.0);
-    font-family: Arial Narrow, sans-serif;
-    font-weight: 100;
-    padding: 28px;
-    margin: 28px;
-    margin-left: 50px;
-    font-size: 12px;
-    float: right;
-    text-align: justify;
-}
-
-
-.clickable {
-    opacity: 1;
-    cursor: pointer;
-}
-
-.text-center {
-    opacity: 0, 8;
-    text-align: center !important;
-}
-
-.clickable:hover .text-center {
-    opacity: 1;
-    color: #e6e61d;
-}
-
-.hover:hover {
-    opacity: 1;
-    color: #e6e61d;
-    cursor: pointer;
-}
-
-.calendar {
-    opacity: 1;
-}
-
-.box {
-    top: 50px;
-    /* width: 70%; */
-    width: auto;
-    height: 70%;
-    padding-bottom: 0px;
-    background: #5cb85c;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    font-size: .9375rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: black;
-    text-align: left;
-    line-break: auto;
-}
-
-.calendar:target .box {
-    opacity: 1;
-}
-
-p {
-    font-size: 15px;
-    line-height: 26px;
-    letter-spacing: 0.5px;
-    font-weight: 100;
-    color: #484848;
-}
-/**
-* Modal */
-
-.nav a {
-    margin-top: 0;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
 
 ul {
     display: block;
@@ -114,56 +19,6 @@ ul {
     width: auto;
 }
 
-table,
-th,
-td {
-    border: 1px solid black;
-    border-color: #c72c2c;
-    border-collapse: collapse;
-}
-
-.table-responsive {
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border-bottom: 1px solid #ddd;
-}
-
-
-
-.table-responsive {
-    min-height: .01%;
-    overflow-x: auto;
-}
-
-.green {
-    background: #60ba38;
-    padding: 40px;
-}
-
-.green-calender {
-    background: #5cb85c;
-}
-
-
-.close-button {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    top: -10px;
-    right: -10px;
-    border-radius: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    font-size: 20px;
-    text-align: center;
-    color: #fff;
-    text-decoration: none;
-}
-
-.close-button:hover {
-    background: rgba(0, 0, 0, 1);
-}
 
 @media (min-width: 768px) {
     .modal-dialog {
@@ -185,11 +40,6 @@ td {
     }
 }
 
-.content-wrapper {
-    min-height: 100vh;
-}
-
-
 .img-fluid {
     height: auto;
     max-height: none;
@@ -197,36 +47,12 @@ td {
 }
 
 
-/* Logos at the bottom */
-.bottom-logos {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.bottom-logos img {
-    max-width: 100px;
-    height: auto;
-    margin-left: 10px;
-}
-
-/* alice added code for fixed header */
-
 body {
 margin: 0;
 padding: 0;
 min-height: 100vh;
 display: flex;
 flex-direction: column;
-}
-
-.logo-fixed {
-position: fixed;
-top: 20px;
-right: 20px;
 }
 
 .content {
@@ -300,54 +126,6 @@ font-style: italic;
 font-family: 'Times New Roman', Times, serif;
 }
 
-/* modal styling */
-.modal {
-color: rgb(139, 142, 143);
-}
-
-.modal-dialog {
-max-width: 95%;
-width: 95%;
-height: 95vh;
-margin: 2.5vh auto;
-padding: 0;
-}
-
-.modal-content {
-height: 100%;
-border-radius: 0;
-background-color: rgb(184, 240, 243);
-}
-
-.modal-header, .modal-body, .modal-footer {
-background-color: rgb(184, 240, 243);
-}
-
-.modal-body {
-position: relative;
-padding: 20px;
-height: calc(100% - 120px);
-overflow-y: auto;
-}
-
-h2 {
-font-size: 25px;
-}
-
-
-.photo-credit {
-font-size: 10px;
-font-weight: normal;
-text-align: right;
-margin-top: 0;
-margin-bottom: 15px;
-color: darkcyan;
-}
-
-.eng-heading {
-font-size: 15px;
-color: purple;
-}
 
 .full-screen-image {
 width: 100%;
@@ -357,20 +135,6 @@ object-fit: contain;
 display: block;
 }
 
-.times {
-font-size: 20px;
-color: deeppink;
-}
-
-.workshop{
-font-size: 15px;
-color: darkcyan;
-}
-
-.dates {
-font-size: 20px;
-color: deeppink;
-}
 
 body {
     position: relative;
